@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+.text-logo {
+  width: 150px;
+  height: 50px;
+}
+.font-12px {
+  font-size: 12px;
+}
+.work-time,
+.phone-box,
+.mail-box {
+  height: 80px;
+}
+
+.mobile-nav-bg {
+  background-color: #020133;
+}
+.mobile-nav-height {
+  height: 90px;
+}
+.lh-90 {
+  line-height: 90px;
+}
+.mobile-subnav-height {
+  height: 250px;
+}
+.mobile-subnav-item-height {
+  height: 50px;
+  line-height: 50px;
+}
+.mobile-subnav-item-active {
+  color: aliceblue;
+  background-color: #e0641e;
+}
