@@ -19,45 +19,69 @@
   </head>
   <body>
     <main class="main">
+      <!------------------------------------------------------------------- NAVIGATION -->
+      <!-- PC Navigation -->
+
       <div class="container">
-        <!--  -->
-        <div class="d-none d-sm-block">
-          <div class="row">
-            <div class="col-3 col-xxl-3">
-              <div class="logo"><img src="./img/textLogo.png" alt="" /></div>
+        <div class="d-none d-lg-block">
+          <div class="row pc-nav-height">
+            <div class="col-3 col-lg-3 d-flex">
+              <div class="logo">
+                <img src="./img/textLogo.png" alt="" />
+              </div>
             </div>
-            <div class="col-3 col-xxl-3">item 1</div>
-            <div class="col-3 col-xxl-3">item 1</div>
-            <div class="col-3 col-xxl-3">item 1</div>
+            <div class="col-4 col-lg-3">
+              <div class="work-time d-flex flex-column justify-content-center">
+                <div class="title fw-bold text-end">Thời gian làm viêc</div>
+                <div class="time text-warning fw-semibold fs-14px text-end">
+                  T2 - T7: 08:30 am - 21:30pm
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4 col-lg-3">
+              <div class="phone-box d-flex flex-column justify-content-center">
+                <div class="title fw-bold text-end">Điện thoại</div>
+                <div class="phone text-warning fw-semibold fs-14px text-end">
+                  0987523525 - 0234533678
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="mail-box d-flex flex-column justify-content-center">
+                <div class="title fw-bold text-end">Mail</div>
+                <div class="mail text-warning fw-semibold fs-14px text-end">
+                  Ekorean@gmail.com
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!--  -->
-        <!--  -->
-        <div class="d-block d-sm-none position-relative">
+
+        <!-- Mobile Navigation -->
+
+        <div class="d-block d-lg-none">
           <div
             class="row mobile-nav-bg mobile-nav-height lh-90 position-relative"
           >
             <div class="col-2 fs-1 text-light">
-              <div class="sub-nav-btn">
+              <div class="sub-nav-btn d-flex justify-content-center">
                 <i class="bi bi-list-ul"></i>
               </div>
             </div>
             <div class="col-8 d-flex justify-content-center">
               <div class="img-box">
-                <img
-                  class="mobile-logo-nav img-fluid"
-                  src="./img/E-Korean.png"
-                  alt=""
-                />
+                <img class="img-fluid" src="./img/E-Korean.png" alt="" />
               </div>
             </div>
             <div class="col-2 fs-1 text-light">
-              <div class="user-login-btn">
+              <div class="user-login-btn d-flex justify-content-center">
                 <i class="bi bi-person-circle"></i>
               </div>
             </div>
             <div
-              class="subnav col-5 position-absolute mobile-subnav-height bg-light top-100 shadow bg-body-tertiary d-none"
+              class="subnav col-6 position-absolute mobile-subnav-height bg-light top-100 shadow bg-body-tertiary d-none"
             >
               <div
                 class="row fw-semibold fs-5 ps-3 mobile-subnav-item-height mobile-subnav-item-active"
@@ -79,8 +103,124 @@
             </div>
           </div>
         </div>
-        <!--  -->
       </div>
+      <!--  -->
+      <div class="navigation-2 d-none d-lg-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-1 col-lg-1 navigation-2-height">
+              <div class="sub-logo-box">
+                <img
+                  src="./img/SubLogo.png"
+                  alt=""
+                  class="sub-logo navigation-2-height"
+                />
+              </div>
+            </div>
+            <div
+              class="col-10 col-lg-10 navigation-2-height d-flex justify-content-around"
+            >
+              <a
+                class="text-decoration-none text-light ps-4 pe-4 pc-nav-item-active"
+                href=""
+                >Home</a
+              >
+              <a class="text-decoration-none text-light ps-4 pe-4" href=""
+                >Khóa học</a
+              >
+              <a class="text-decoration-none text-light ps-4 pe-4" href=""
+                >Lịch khai giảng</a
+              >
+              <a class="text-decoration-none text-light ps-4 pe-4" href=""
+                >Blog</a
+              >
+              <a class="text-decoration-none text-light ps-4 pe-4" href=""
+                >Liên hệ</a
+              >
+            </div>
+            <div class="col-1 col-lg-1 navigation-2-height">
+              <div
+                class="wrap-user-box fs-3 user-box-bg d-flex justify-content-center text-light"
+              >
+                <i class="bi bi-person-circle"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------------------------------- NAVIGATION -->
+      <!------------------------------------------------------------------- SLIDER -->
+      <div class="slider">
+        <div class="container">
+          <div class="row my-3">
+            <div class="col-12 d-flex justify-content-center">
+              <img
+                src="./img/thumb-img-mobile.png"
+                alt=""
+                class="slider-img img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------------------------------- SLIDER -->
+      <!------------------------------------------------------------------ DESCRIPTION MOBILE -->
+
+      <div class="website-description d-block d-lg-none my-2">
+        <div class="container main-bg p-1 rounded-1">
+          <div class="row my-3">
+            <div class="col-12 text-center">
+              <span class="center-name main-text-color fs-4 fw-bold">
+                Trung Tâm Hàn Ngữ E-Korean</span
+              >
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-journal-bookmark"></i>
+                </div>
+                <div class="text fw-medium">Mô hình đào tạo chất lượng</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-book-fill"></i>
+                </div>
+                <div class="text fw-medium">
+                  Lộ trình đào tạo đa dạng, phù hợp với mọi học viên
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-list"></i>
+                </div>
+                <div class="text fw-medium">
+                  Hệ thống các khóa học từ kiến thức cơ bản đến nâng cao
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <div class="text fw-medium">
+                  Đội ngũ giảng viên chất lượng tận tâm, trách nhiệm
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------ DESCRIPTION -->
     </main>
 
     <script
