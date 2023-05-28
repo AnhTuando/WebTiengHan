@@ -70,6 +70,7 @@
 }
 .main-text-color {
   color: var(--red-pink-color);
+  -webkit-text-stroke: 0.5px #ffffff;
 }
 .orange-color {
   color: var(--orange-color);
