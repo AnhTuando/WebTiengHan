@@ -54,7 +54,6 @@
   background-color: var(--orange-color);
 }
 .navigation-2 {
-  width: 100vw;
   background-color: #020133;
   height: 60px;
 }
@@ -70,8 +69,10 @@
 }
 .main-text-color {
   color: var(--red-pink-color);
-  -webkit-text-stroke: 0.5px #ffffff;
 }
 .orange-color {
   color: var(--orange-color);
+}
+.h-50px {
+  height: 40px;
 }
