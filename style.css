@@ -73,6 +73,14 @@
 .orange-color {
   color: var(--orange-color);
 }
+.orange-bg-icon {
+  background-color: var(--orange-color);
+  display: inline-block;
+}
+.black-bg-icon {
+  background-color: #000;
+  display: inline-block;
+}
 .h-50px {
   height: 40px;
 }
