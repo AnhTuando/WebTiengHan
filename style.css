@@ -70,6 +70,9 @@
 .main-text-color {
   color: var(--red-pink-color);
 }
+.soft-red-bg {
+  background-color: var(--red-pink-color);
+}
 .orange-color {
   color: var(--orange-color);
 }
@@ -85,5 +88,5 @@
   height: 40px;
 }
 .h-100px {
-  height: 100px;
+  height: 130px;
 }
